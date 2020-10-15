@@ -130,38 +130,43 @@ class FibaroSwipeDevice extends ZwaveDevice {
   }
 
   async onSettings({oldSettings, newSettings, changedKeys}) {
+    /*
+      If one setting changes for enabled guestures we need to recalculate the whole sum.
+      This recalculates and sets the value outside super.onSettings by removing the
+      changed keys from changesKeys and calling congirationSet with the calculated value.
+    */
     if (changedKeys.includes('gesture_up') || changedKeys.includes('gesture_down')
       || changedKeys.includes('gesture_left') || changedKeys.includes('gesture_right')
       || changedKeys.includes('gesture_cw') || changedKeys.includes('gesture_ccw')) {
       let parsedValue = 0;
-      if (this.getSetting('gesture_up')) parsedValue += 1;
-      if (this.getSetting('gesture_down')) parsedValue += 2;
-      if (this.getSetting('gesture_left')) parsedValue += 4;
-      if (this.getSetting('gesture_right')) parsedValue += 8;
-      if (this.getSetting('gesture_cw')) parsedValue += 16;
-      if (this.getSetting('gesture_ccw')) parsedValue += 32;
+      if (newSettings.gesture_up) parsedValue += 1;
+      if (newSettings.gesture_down) parsedValue += 2;
+      if (newSettings.gesture_left) parsedValue += 4;
+      if (newSettings.gesture_right) parsedValue += 8;
+      if (newSettings.gesture_cw) parsedValue += 16;
+      if (newSettings.gesture_ccw) parsedValue += 32;
 
-            	await this.configurationSet({
+      await this.configurationSet({
         index: 10,
         size: 1,
       }, parsedValue);
 
-            	changedKeys = [...changedKeys.filter(changedKey => changedKey !== ('gesture_up' || 'gesture_down' || 'gesture_left' || 'gesture_right' || 'gesture_cw' || 'gesture_ccw'))];
+      changedKeys = changedKeys.filter(changedKey => !['gesture_up', 'gesture_down', 'gesture_left', 'gesture_right', 'gesture_cw', 'gesture_ccw'].includes(changedKey));
     }
     if (changedKeys.includes('double_up') || changedKeys.includes('double_down')
             || changedKeys.includes('double_left') || changedKeys.includes('double_right')) {
       let parsedValue = 0;
-      if (this.getSetting('double_up')) parsedValue += 1;
-      if (this.getSetting('double_down')) parsedValue += 2;
-      if (this.getSetting('double_left')) parsedValue += 4;
-      if (this.getSetting('double_right')) parsedValue += 8;
+      if (newSettings.double_up) parsedValue += 1;
+      if (newSettings.double_down) parsedValue += 2;
+      if (newSettings.double_left) parsedValue += 4;
+      if (newSettings.double_right) parsedValue += 8;
 
       await this.configurationSet({
         index: 12,
         size: 1,
       }, parsedValue);
 
-            	changedKeys = [...changedKeys.filter(changedKey => changedKey !== ('double_up' || 'double_down' || 'double_left' || 'double_right'))];
+      changedKeys = changedKeys.filter(changedKey => !['double_up', 'double_down', 'double_left', 'double_right'].includes(changedKey));
     }
 
     return super.onSettings({oldSettings, newSettings, changedKeys});
