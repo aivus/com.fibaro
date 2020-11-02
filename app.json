@@ -1,4 +1,5 @@
 {
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.fibaro",
   "name": {
     "en": "Fibaro"
@@ -3778,8 +3779,8 @@
               "id": "4",
               "type": "dropdown",
               "hint": {
-                "en": "This parameter (3) determines what kind of input type is connected.",
-                "nl": "Deze parameter (3) bepaalt wat van ingang type er is aangesloten."
+                "en": "This parameter (4) determines what kind of input type is connected.",
+                "nl": "Deze parameter (4) bepaalt wat van ingang type er is aangesloten."
               },
               "value": "1",
               "values": [
@@ -4513,8 +4514,8 @@
                 "nl": "Rapportage interval (s)"
               },
               "hint": {
-                "en": "This parameter (66) determines the time between reports to Homey, independent of value changes.",
-                "nl": "Deze parameter (66) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
+                "en": "This parameter (68) determines the time between reports to Homey, independent of value changes.",
+                "nl": "Deze parameter (68) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
               },
               "type": "number"
             },
@@ -4536,8 +4537,8 @@
                 "nl": "Rapportage drempel"
               },
               "hint": {
-                "en": "This parameter (65) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (65) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (67) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (67) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             }
@@ -4697,8 +4698,8 @@
                 "nl": "Rapportage drempel"
               },
               "hint": {
-                "en": "This parameter (25) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (25) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (21) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (21) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             },
@@ -5732,8 +5733,8 @@
               },
               "id": "kwh_report",
               "hint": {
-                "en": "This parameter (50) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (50) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (53) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (53) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             },
@@ -9000,8 +9001,8 @@
               "id": "circle_scenes",
               "type": "dropdown",
               "hint": {
-                "en": "This parameter (21) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
-                "nl": "Deze parameter (21) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
+                "en": "This parameter (22) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
+                "nl": "Deze parameter (22) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
               },
               "value": "9",
               "values": [
@@ -9040,8 +9041,8 @@
               "id": "cross_scenes",
               "type": "dropdown",
               "hint": {
-                "en": "This parameter (21) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
-                "nl": "Deze parameter (21) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
+                "en": "This parameter (23) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
+                "nl": "Deze parameter (23) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
               },
               "value": "9",
               "values": [
@@ -9080,8 +9081,8 @@
               "id": "triangle_scenes",
               "type": "dropdown",
               "hint": {
-                "en": "This parameter (21) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
-                "nl": "Deze parameter (21) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
+                "en": "This parameter (24) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
+                "nl": "Deze parameter (24) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
               },
               "value": "9",
               "values": [
@@ -9120,8 +9121,8 @@
               "id": "minus_scenes",
               "type": "dropdown",
               "hint": {
-                "en": "This parameter (21) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
-                "nl": "Deze parameter (21) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
+                "en": "This parameter (25) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
+                "nl": "Deze parameter (25) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
               },
               "value": "9",
               "values": [
@@ -9160,8 +9161,8 @@
               "id": "plus_scenes",
               "type": "dropdown",
               "hint": {
-                "en": "This parameter (21) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
-                "nl": "Deze parameter (21) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
+                "en": "This parameter (26) defines which button interactions can trigger a Flow. Using the 2x and 3x pressed options introduces a slight delay in Flow triggering.",
+                "nl": "Deze parameter (26) bepaalt welke knop interacties een Flow kunnen triggeren. Bij het gebruik van de 2x en 3x drukken ontstaat er een kleine vertraging bij het triggeren van Flows."
               },
               "value": "9",
               "values": [
@@ -9275,8 +9276,8 @@
               "value": "0",
               "pattern": "^0$|^[1-6];([1-6];)?([1-6];)?([1-6];)?[1-6];?",
               "hint": {
-                "en": "This parameter (1) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
-                "nl": "Deze parameter (1) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
+                "en": "This parameter (3) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
+                "nl": "Deze parameter (3) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
               }
             },
             {
@@ -9294,8 +9295,8 @@
               "value": "0",
               "pattern": "^0$|^[1-6];([1-6];)?([1-6];)?([1-6];)?[1-6];?",
               "hint": {
-                "en": "This parameter (1) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
-                "nl": "Deze parameter (1) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
+                "en": "This parameter (4) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
+                "nl": "Deze parameter (4) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
               }
             },
             {
@@ -9313,8 +9314,8 @@
               "value": "0",
               "pattern": "^0$|^[1-6];([1-6];)?([1-6];)?([1-6];)?[1-6];?",
               "hint": {
-                "en": "This parameter (1) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
-                "nl": "Deze parameter (1) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
+                "en": "This parameter (5) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
+                "nl": "Deze parameter (5) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
               }
             },
             {
@@ -9332,8 +9333,8 @@
               "value": "0",
               "pattern": "^0$|^[1-6];([1-6];)?([1-6];)?([1-6];)?[1-6];?",
               "hint": {
-                "en": "This parameter (1) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
-                "nl": "Deze parameter (1) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
+                "en": "This parameter (6) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
+                "nl": "Deze parameter (6) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
               }
             },
             {
@@ -9351,8 +9352,8 @@
               "value": "0",
               "pattern": "^0$|^[1-6];([1-6];)?([1-6];)?([1-6];)?[1-6];?",
               "hint": {
-                "en": "This parameter (1) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
-                "nl": "Deze parameter (1) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
+                "en": "This parameter (7) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
+                "nl": "Deze parameter (7) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
               }
             },
             {
@@ -9370,8 +9371,8 @@
               "value": "0",
               "pattern": "^0$|^[1-6];([1-6];)?([1-6];)?([1-6];)?[1-6];?",
               "hint": {
-                "en": "This parameter (1) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
-                "nl": "Deze parameter (1) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
+                "en": "This parameter (8) sets a button sequence in the device. Separate button numbers by a semicolon ( ; ), use 2 to 5 buttons. No duplicate sequences are allowed. 0 = sequence disabled. Buttons are numbered from left to right, from top to bottom (1 - 6).",
+                "nl": "Deze parameter (8) stelt een reeks in op het apparaat. Scheid knop nummers door een puntkomma ( ; ), gebruik 2 tot 5 knoppen. 2x dezelfde reeks is niet toegestaan. 0 = reeks uitgeschakeld. Knoppen zijn genummerd van links naar rechts, van boven naar beneden (1 - 6)."
               }
             }
           ]
@@ -9464,8 +9465,8 @@
                 "max": 255
               },
               "hint": {
-                "en": "This parameter (11) determines the value that is send to the listed association groups.",
-                "nl": "Deze parameter (11) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
+                "en": "This parameter (12) determines the value that is send to the listed association groups.",
+                "nl": "Deze parameter (12) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
               }
             },
             {
@@ -9486,8 +9487,8 @@
                 "max": 255
               },
               "hint": {
-                "en": "This parameter (11) determines the value that is send to the listed association groups.",
-                "nl": "Deze parameter (11) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
+                "en": "This parameter (13) determines the value that is send to the listed association groups.",
+                "nl": "Deze parameter (13) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
               }
             },
             {
@@ -9508,8 +9509,8 @@
                 "max": 255
               },
               "hint": {
-                "en": "This parameter (11) determines the value that is send to the listed association groups.",
-                "nl": "Deze parameter (11) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
+                "en": "This parameter (14) determines the value that is send to the listed association groups.",
+                "nl": "Deze parameter (14) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
               }
             },
             {
@@ -9530,8 +9531,8 @@
                 "max": 255
               },
               "hint": {
-                "en": "This parameter (11) determines the value that is send to the listed association groups.",
-                "nl": "Deze parameter (11) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
+                "en": "This parameter (15) determines the value that is send to the listed association groups.",
+                "nl": "Deze parameter (15) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
               }
             },
             {
@@ -9552,8 +9553,8 @@
                 "max": 255
               },
               "hint": {
-                "en": "This parameter (11) determines the value that is send to the listed association groups.",
-                "nl": "Deze parameter (11) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
+                "en": "This parameter (16) determines the value that is send to the listed association groups.",
+                "nl": "Deze parameter (16) bepaalt de waarde die wordt verzonden naar de gespecificeerde associatie groepen."
               }
             }
           ]
@@ -9893,8 +9894,8 @@
                 "nl": "Rapportage drempel"
               },
               "hint": {
-                "en": "This parameter (60) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (60) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (40) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (40) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             },
@@ -9915,8 +9916,8 @@
                 "nl": "Rapportage interval (s)"
               },
               "hint": {
-                "en": "This parameter (64) determines the time between reports to Homey, independent of value changes.",
-                "nl": "Deze parameter (64) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
+                "en": "This parameter (42) determines the time between reports to Homey, independent of value changes.",
+                "nl": "Deze parameter (42) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
               },
               "type": "number"
             },
@@ -9968,8 +9969,8 @@
                 "nl": "Gevoeligheid"
               },
               "hint": {
-                "en": "This parameter (1) sets the sensitivity for this sensor.",
-                "nl": "Deze parameter (1) bepaalt de gevoeligheid van deze sensor."
+                "en": "This parameter (20) sets the sensitivity for this sensor.",
+                "nl": "Deze parameter (20) bepaalt de gevoeligheid van deze sensor."
               },
               "type": "number"
             },
@@ -9990,8 +9991,8 @@
                 "nl": "Annuleringsperiode (s)"
               },
               "hint": {
-                "en": "This parameter (6) sets the time after which the alarm will be cancelled.",
-                "nl": "Deze parameter (6) bepaalt de tijd waarna het alarm wordt gedeactiveerd."
+                "en": "This parameter (22) sets the time after which the alarm will be cancelled.",
+                "nl": "Deze parameter (22) bepaalt de tijd waarna het alarm wordt gedeactiveerd."
               },
               "type": "number"
             },
@@ -10888,8 +10889,8 @@
                 "nl": "Rapportage drempel"
               },
               "hint": {
-                "en": "This parameter (60) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (60) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (40) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (40) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "zwave": {
                 "index": 40,
@@ -10909,8 +10910,8 @@
                 "nl": "Rapportage interval (s)"
               },
               "hint": {
-                "en": "This parameter (64) determines the time between reports to Homey, independent of value changes.",
-                "nl": "Deze parameter (64) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
+                "en": "This parameter (42) determines the time between reports to Homey, independent of value changes.",
+                "nl": "Deze parameter (42) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
               },
               "zwave": {
                 "index": 42,
@@ -10986,8 +10987,8 @@
                 "nl": "Gevoeligheid"
               },
               "hint": {
-                "en": "This parameter (1) sets the sensitivity for this sensor.",
-                "nl": "Deze parameter (1) bepaalt de gevoeligheid van deze sensor."
+                "en": "This parameter (20) sets the sensitivity for this sensor.",
+                "nl": "Deze parameter (20) bepaalt de gevoeligheid van deze sensor."
               },
               "type": "number"
             },
@@ -11003,8 +11004,8 @@
                 "nl": "Annuleringsperiode (s)"
               },
               "hint": {
-                "en": "This parameter (6) sets the time after which the alarm will be cancelled.",
-                "nl": "Deze parameter (6) bepaalt de tijd waarna het alarm wordt gedeactiveerd."
+                "en": "This parameter (22) sets the time after which the alarm will be cancelled.",
+                "nl": "Deze parameter (22) bepaalt de tijd waarna het alarm wordt gedeactiveerd."
               },
               "attr": {
                 "min": 1,
@@ -14110,8 +14111,8 @@
                 "nl": "Rapportage interval (s)"
               },
               "hint": {
-                "en": "This parameter (58) determines the time between reports to Homey, independent of value changes.",
-                "nl": "Deze parameter (58) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
+                "en": "This parameter (59) determines the time between reports to Homey, independent of value changes.",
+                "nl": "Deze parameter (59) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
               },
               "type": "number"
             },
@@ -14132,8 +14133,8 @@
                 "nl": "Rapportage drempel"
               },
               "hint": {
-                "en": "This parameter (50) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (50) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (53) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (53) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             },
@@ -14266,8 +14267,8 @@
             "nl": "Vertraging automatisch uitschakelen"
           },
           "hint": {
-            "en": "This parameter (4) determines the time after which the Double Relay Switch will automatically turn off.",
-            "nl": "Deze parameter (4) bepaalt de tijd waarna de Double Relay Switch automatisch uit gaat."
+            "en": "This parameter (5) determines the time after which the Double Relay Switch will automatically turn off.",
+            "nl": "Deze parameter (5) bepaalt de tijd waarna de Double Relay Switch automatisch uit gaat."
           },
           "attr": {
             "min": 0,
@@ -15444,7 +15445,8 @@
       "capabilities": [
         "measure_battery",
         "target_temperature",
-        "measure_temperature"
+        "measure_temperature",
+        "alarm_generic"
       ],
       "images": {
         "large": "/drivers/FGT-001/assets/images/large.jpg",
@@ -17028,8 +17030,8 @@
                 "nl": "Rapportage drempel"
               },
               "hint": {
-                "en": "This parameter (40) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (40) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (45) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (45) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             },
@@ -17416,8 +17418,8 @@
               "value": 80,
               "id": "immediate_watt_percent_report",
               "hint": {
-                "en": "This parameter (11) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (11) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (10) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (10) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             }
@@ -17465,8 +17467,8 @@
                 "nl": "Rapportage drempel"
               },
               "hint": {
-                "en": "This parameter (11) determines the minimum change in value before reporting changes to Homey.",
-                "nl": "Deze parameter (11) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
+                "en": "This parameter (13) determines the minimum change in value before reporting changes to Homey.",
+                "nl": "Deze parameter (13) bepaalt de minimum verandering van de meetwaarde voordat deze naar Homey wordt gestuurd."
               },
               "type": "number"
             },
@@ -17486,8 +17488,8 @@
                 "nl": "Rapportage interval (s)"
               },
               "hint": {
-                "en": "This parameter (12) determines the time between reports to Homey, independent of value changes.",
-                "nl": "Deze parameter (12) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
+                "en": "This parameter (14) determines the time between reports to Homey, independent of value changes.",
+                "nl": "Deze parameter (14) bepaalt wanneer de waarden naar Homey worden verzonden, ook als deze niet veranderd is."
               },
               "type": "number"
             }

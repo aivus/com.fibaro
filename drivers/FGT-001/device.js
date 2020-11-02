@@ -6,7 +6,12 @@ const { ZwaveDevice } = require('homey-meshdriver');
 // TODO: set battery type in driver.compose.json
 class RadiatorThermostat extends ZwaveDevice {
 
-  onMeshInit() {
+  async onMeshInit() {
+
+    if (await !this.hasCapability('alarm_generic')) await this.addCapability('alarm_generic');
+
+    this.enableDebug();
+
     this.registerCapability('measure_battery', 'BATTERY', {
       getOpts: {
         pollInterval: 'poll_interval_battery',
@@ -30,6 +35,28 @@ class RadiatorThermostat extends ZwaveDevice {
         pollMultiplication: 1000,
       },
     });
+
+    this.registerCapability('alarm_generic', 'CONFIGURATION', {
+      getOpts: {
+        getOnStart: true,
+        getOnOnline: true,
+      },
+      get: 'CONFIGURATION_GET',
+      getParser: () => ({
+        'Parameter Number': 3
+      }),
+      report: 'CONFIGURATION_REPORT',
+      reportParser: report => {
+        const rawValue = report['Configuration Value'].readUInt32BE(0);
+        this.log(rawValue);
+        return !!(rawValue & 1);
+      },
+      reportParserOverride: true,
+    });
+
+    // const config = await this.configurationGet({index: 3});
+    //
+    // this.log('config', config);
   }
 
 }
